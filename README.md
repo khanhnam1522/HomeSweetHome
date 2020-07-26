@@ -10,5 +10,6 @@
   * Tech stack: 
     * Backend: Express, NodeJS, MongoDB, JWT
     * Frontend: React Native, React Hooks, Navigations
+    
 2.Demo:
   
