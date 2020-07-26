@@ -2,7 +2,7 @@
 
 
 1.Project description:
-  * Home Sweet Home is a house rental online marketplace application
+  * Home Sweet Home is a house rental online marketplace mobile application
   * The application contains the following functionality:
     * Allow landlords to post rental property
     * Allow tenants to discover house rental postings
