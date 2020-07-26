@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "HomeSweetHome",
+    "slug": "HomeSweetHome",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "An online marketplace that connects people who want to rent out their homes",
+    "notification": {
+      "iosDisplayInForeground": true
+    }
+  }
+}
