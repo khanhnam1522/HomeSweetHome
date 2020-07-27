@@ -10,7 +10,7 @@ import useAuth from "../auth/useAuth";
 
 const menuItems = [
   {
-    title: "My Listings",
+    title: "My Postings",
     icon: {
       name: "format-list-bulleted",
       backgroundColor: colors.primary,

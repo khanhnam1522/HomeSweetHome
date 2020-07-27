@@ -35,8 +35,16 @@ function MessagesScreen(props) {
           onRefresh={getMessagesApi.handleRefresh}
           renderItem={({ item }) => (
             <ListItem
-              title={item.fromUser.name}
-              subTitle={item.content}
+              title={
+                item.currentUser === item.fromUser._id
+                  ? item.toUser.name
+                  : item.fromUser.name
+              }
+              subTitle={
+                item.currentUser === item.fromUser._id
+                  ? "You: " + item.content
+                  : item.fromUser.name + ": " + item.content
+              }
               image={require("../assets/profilePicture.png")}
               onPress={() => console.log("Message selected", item)}
               renderRightActions={() => (

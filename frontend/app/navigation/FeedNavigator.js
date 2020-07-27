@@ -5,15 +5,17 @@ import ListingDetailsScreen from "../screens/ListingDetailsScreen";
 
 const Stack = createStackNavigator();
 
-const FeedNavigator = () => (
-  <Stack.Navigator mode="modal">
-    <Stack.Screen name="Houses" component={ListingsScreen} />
-    <Stack.Screen
-      name="ListingDetails"
-      component={ListingDetailsScreen}
-      options={{ title: "House Info" }}
-    />
-  </Stack.Navigator>
-);
+const FeedNavigator = ({ route }) => {
+  return (
+    <Stack.Navigator mode="modal">
+      <Stack.Screen name="Houses" component={ListingsScreen} />
+      <Stack.Screen
+        name="ListingDetails"
+        component={ListingDetailsScreen}
+        options={{ title: "House Info" }}
+      />
+    </Stack.Navigator>
+  );
+};
 
 export default FeedNavigator;

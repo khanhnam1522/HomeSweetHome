@@ -11,12 +11,18 @@ import Screen from "../components/Screen";
 import AppText from "../components/Text";
 import useApi from "../hooks/useApi";
 
-function ListingsScreen({ navigation }) {
+function ListingsScreen({ navigation, route }) {
   const getListingsApi = useApi(listingsApi.getListings);
 
   useEffect(() => {
     getListingsApi.request();
   }, []);
+
+  if (route.params) {
+    getListingsApi.handleRefresh();
+    route.params = false;
+  }
+
   return (
     <>
       <ActivityIndicator visible={getListingsApi.loading} />

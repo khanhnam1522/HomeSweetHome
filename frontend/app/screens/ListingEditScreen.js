@@ -39,7 +39,7 @@ function ListingEditScreen({ navigation }) {
     }
 
     resetForm();
-    navigation.navigate("Feed");
+    navigation.navigate("Houses", true);
   };
 
   return (

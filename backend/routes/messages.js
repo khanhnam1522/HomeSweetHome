@@ -23,8 +23,11 @@ router.get("/", auth, async (req, res) => {
     .sort({ dateTime: "desc" })
     .populate("fromUser")
     .populate("toUser");
-
-  res.send(messages);
+  const resources = messages.map((message) => ({
+    ...message.toObject(),
+    currentUser: req.user.userId,
+  }));
+  res.send(resources);
 });
 
 router.post("/", [auth, validateWith(schema)], async (req, res) => {
