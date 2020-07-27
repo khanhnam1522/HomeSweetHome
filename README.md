@@ -9,7 +9,7 @@
     * Allow tenants to directly message the landlords (Send a message push notification on the mobile device)
   * Tech stack: 
     * Backend: Express, NodeJS, MongoDB, JWT
-    * Frontend: React Native, React Hooks, Navigations
+    * Frontend: React Native, React Hooks, React Navigations
     
 2.Demo:
   
