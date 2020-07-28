@@ -13,4 +13,13 @@
     
 2.Demo:
  * Demo video: https://youtu.be/a3QUuQ6P-Bs
+ * Images: 
+   * ![](images/AuthScreen.png)
+   * ![](images/PostScreen.png)
+   * ![](images/accountScreen.png)
+   * ![](images/detailsScreen.png)
+   * ![](images/detailsScreen2.png)
+   * ![](images/loginScreen.png)
+   * ![](images/messageScreen.png)
+
   
