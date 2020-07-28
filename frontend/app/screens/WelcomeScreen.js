@@ -12,7 +12,7 @@ function WelcomeScreen({ navigation }) {
       source={require("../assets/background.jpg")}
     >
       <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require("../assets/logo-red.png")} />
+        <Image style={styles.logo} source={require("../assets/logo.png")} />
         <Text style={styles.tagline}>Find the perfect place to stay</Text>
       </View>
       <View style={styles.buttonsContainer}>
