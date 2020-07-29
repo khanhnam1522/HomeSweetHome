@@ -12,7 +12,7 @@
     * Frontend: React Native, React Hooks, React Navigations
     
 2.Demo:
- * Demo video: https://youtu.be/a3QUuQ6P-Bs
+ * Demo video: https://youtu.be/lhvp8x47D2g
  * Images: 
    * ![](images/AuthScreen.png)
    * ![](images/PostScreen.png)
